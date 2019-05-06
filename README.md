@@ -17,6 +17,8 @@ npm run build
 
 - localhost:8080 접속
 
+반드시 인텔리J의 어노테이션 프로세싱 켜주세요.
+
 ## api
 
 | url | 파라미터 | 설명 | 기타 |
