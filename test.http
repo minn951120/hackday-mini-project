@@ -44,3 +44,48 @@ GET http://localhost:8080/item/title/contains/박스/size/10
 GET http://localhost:8080/item/title/endsWith/박스/size/3
 
 ###
+
+
+
+
+
+
+
+
+#############################체크##################################
+
+GET http://localhost:8080/item/search?st=STARTS_WITH&k=체크&s=3
+
+###
+
+GET http://localhost:8080/item/search?st=CONTAINS&k=체크&s=3
+
+###
+
+GET http://localhost:8080/item/search?st=ENDS_WITH&k=체크&s=3
+
+#############################노란##################################
+
+GET http://localhost:8080/item/search?st=STARTS_WITH&k=노란&s=3
+
+###
+
+GET http://localhost:8080/item/search?st=CONTAINS&k=노란&s=3
+
+###
+
+GET http://localhost:8080/item/search?st=ENDS_WITH&k=노란&s=3
+
+###############################박스################################
+
+GET http://localhost:8080/item/search?st=STARTS_WITH&k=박스&s=3
+
+###
+
+GET http://localhost:8080/item/search?st=CONTAINS&k=박스&s=3
+
+###
+
+GET http://localhost:8080/item/search?st=ENDS_WITH&k=박스&s=3
+
+###
